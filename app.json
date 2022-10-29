@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "BeeHive",
+    "slug": "BeeHive",
+    "version": "2.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.basket.beeHive",
+      "buildNumber": "4.0"
+    },
+    "android": {
+      "package": "com.basket.beeHive",
+      "versionCode": 4,
+      "permissions" : []
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
