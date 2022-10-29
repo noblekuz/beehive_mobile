@@ -10,7 +10,7 @@ import * as actions from './redux/actions';
 
 var Parse = require('parse/react-native')
 
-Parse.initialize("mM14bNHZPl0CiOjwJlYTQh27b2Juz3vrvWVqKIY4", "kzmSQrTwI2YbKGXduWYImH5w8VeYdN4xGUauyhjc");
+Parse.initialize("APP_KEY", "API_KEY");
 Parse.serverURL = 'https://parseapi.back4app.com';
 
 

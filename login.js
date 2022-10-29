@@ -14,7 +14,7 @@ Parse.setAsyncStorage(AsyncStorage);
 
 
 
-Parse.initialize("mM14bNHZPl0CiOjwJlYTQh27b2Juz3vrvWVqKIY4", "kzmSQrTwI2YbKGXduWYImH5w8VeYdN4xGUauyhjc");
+Parse.initialize("APP_KEY", "API_KEY");
 Parse.serverURL = 'https://parseapi.back4app.com';
 
 export default function Login(props) {
